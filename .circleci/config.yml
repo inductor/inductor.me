@@ -23,4 +23,5 @@ jobs:
           command: mv firebase.json public/ && mv .firebaserc public/ && cd public
       - run:
           name: "Deploy"
-          command: firebase deploy --token "$FIREBASE_TOKEN"
+          command: pwd
+          #          command: firebase deploy --token "$FIREBASE_TOKEN"
