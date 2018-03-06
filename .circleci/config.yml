@@ -13,11 +13,11 @@ jobs:
           name: "Test Website"
           command: htmlproofer ~/project/src/public --allow-hash-href --check-html --empty-alt-ignore
       - run:
-          name: "Set Google Firebase information"
-          command: git config --global user.name ${GITHUB_USERNAME} && git config --global user.email ${GITHUB_EMAIL_ADDRESS}
-      - run:
           name: "Install NodeJS"
           command: apk update && apk add nodejs
       - run:
           name: "Install and initialize Firebase CLI"
-          command: npm install -g firebase-tools  && firebase login | echo -e "${FIREBASE_EMAIL}\n${FIREBASE_PASSWORD}"
+          command: cd static && npm install -g firebase-tools  && firebase login | echo -e "${FIREBASE_EMAIL}\n${FIREBASE_PASSWORD}"
+      - run:
+          name: "Deploy"
+          command: firebase deploy
