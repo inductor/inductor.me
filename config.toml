@@ -1,0 +1,17 @@
+theme="amp"
+baseURL = "https://inductor.me/"
+languageCode = "ja-JP"
+title = "inductor.me"
+copyright = "© 2018 inductor."
+canonifyurls = true
+
+[params]
+  description = "shitty note" #optional
+
+# optional
+[social]
+  twitter = "_inductor_"
+  github = "kelaductor"
+  facebook = "kelaductor"
+  gplus = ""
+  linkedin = "kelaductor"
