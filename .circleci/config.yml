@@ -11,13 +11,13 @@ jobs:
           command: HUGO_ENV=production hugo -v -s ~/project/
       - run:
           name: "Test Website"
-          command: htmlproofer ~/project/src/public --allow-hash-href --check-html --empty-alt-ignore
+          command: htmlproofer ~/project/public --allow-hash-href --check-html --empty-alt-ignore
       - run:
           name: "Install NodeJS"
           command: apk update && apk add nodejs
       - run:
           name: "Install and initialize Firebase CLI"
-          command: cd static && npm install -g firebase-tools
+          command: npm install -g firebase-tools
       - run:
           name: "Deploy"
-          command: firebase deploy --token "$FIREBASE_TOKEN"
+          command: mv firebase.json public/ && .firebaserc public/ && cd public && firebase deploy --token "$FIREBASE_TOKEN"
