@@ -19,8 +19,5 @@ jobs:
           name: "Install and initialize Firebase CLI"
           command: cd static && npm install -g firebase-tools
       - run:
-          name: "Login Firebase"
-          command: firebase login
-      - run:
           name: "Deploy"
-          command: firebase deploy
+          command: firebase deploy --token "$FIREBASE_TOKEN"
