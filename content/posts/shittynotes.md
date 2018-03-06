@@ -6,7 +6,7 @@ categories: ["shit"]
 menu:
   main:
     parent: shit
-draft: true
+draft: false
 ---
 
 This is some sort of shit!
