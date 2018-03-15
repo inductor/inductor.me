@@ -19,8 +19,5 @@ jobs:
           name: "Install and initialize Firebase CLI"
           command: npm install -g firebase-tools
       - run:
-          name: "Preparation"
-          command: mv firebase.json public/ && mv .firebaserc public/ && cd public
-      - run:
           name: "Deploy"
           command: cd public && firebase deploy --only hosting --token "$FIREBASE_TOKEN"
