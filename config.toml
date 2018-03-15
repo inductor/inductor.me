@@ -11,7 +11,7 @@ canonifyurls = true
 # optional
 [social]
   twitter = "_inductor_"
-  github = "kelaductor"
+  github = "inductor"
   facebook = "kelaphone"
   gplus = ""
   linkedin = "kelaductor"
