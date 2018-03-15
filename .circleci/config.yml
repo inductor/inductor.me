@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: felicianotech/docker-hugo:0.37
+      - image: inductor/hugo-firebase-tools:latest
     working_directory: ~/project
     steps:
       - checkout
@@ -12,12 +12,6 @@ jobs:
 #      - run:
 #          name: "Test Website"
 #          command: htmlproofer ~/project/public --allow-hash-href --check-html --empty-alt-ignore
-      - run:
-          name: "Install NodeJS"
-          command: apk update && apk add nodejs
-      - run:
-          name: "Install and initialize Firebase CLI"
-          command: npm install -g firebase-tools
       - run:
           name: "Deploy"
           command: cd public && firebase deploy --only hosting --token "$FIREBASE_TOKEN"
