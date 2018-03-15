@@ -6,6 +6,14 @@
       "**/.*"
     ],
     "headers": [ {
+      "source": "**",
+      "headers": [ 
+        {"key": "X-Content-Type-Options", "value": "nosniff"},
+          {"key": "X-Frame-Options", "value": "ALLOW"},
+          {"key": "X-UA-Compatible", "value": "ie=edge"},
+          {"key": "X-XSS-Protection", "value": "1; mode=block"}
+       ]
+    }, {
       "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
       "headers": [ {
         "key": "Access-Control-Allow-Origin",
@@ -23,14 +31,6 @@
       "key": "Cache-Control",
       "value": "max-age=300"
       } ]
-    }, {
-      "source": "**/*",
-      "headers": [ 
-        {"key": "X-Content-Type-Options", "value": "nosniff"},
-          {"key": "X-Frame-Options", "value": "ALLOW"},
-          {"key": "X-UA-Compatible", "value": "ie=edge"},
-          {"key": "X-XSS-Protection", "value": "1; mode=block"}
-       ]
     } ]
   }
 }
