@@ -2,7 +2,7 @@ theme="material-design"
 baseURL = "https://inductor.me/"
 languageCode = "ja-JP"
 title = "inductor.me"
-copyright = "© 2018 inductor."
+copyright = "© 2017-2018 inductor."
 canonifyurls = true
 
 [params]
