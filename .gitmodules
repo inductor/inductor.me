@@ -1,0 +1,3 @@
+[submodule "themes/material-design"]
+	path = themes/material-design
+	url = https://github.com/pdevty/material-design
