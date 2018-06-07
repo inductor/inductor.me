@@ -15,3 +15,4 @@ canonifyurls = true
   facebook = "kelaphone"
   gplus = ""
   linkedin = "kelaductor"
+  googleAnalyticsUserID = "UA-45054000-13"
