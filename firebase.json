@@ -9,7 +9,7 @@
       "source": "**",
       "headers": [{
           "key": "Content-Security-Policy",
-          "value": "default-src 'self' https://*"
+          "value": "default-src 'self' https://* 'unsafe-inline'"
         },
         {
           "key": "X-Content-Type-Options",
