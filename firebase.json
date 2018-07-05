@@ -5,38 +5,53 @@
       "firebase.json",
       "**/.*"
     ],
-    "headers": [ {
+    "headers": [{
       "source": "**",
-      "headers": [ 
-        {"key": "X-Content-Type-Options", "value": "nosniff"},
-          {"key": "X-Frame-Options", "value": "DENY"},
-          {"key": "X-UA-Compatible", "value": "ie=edge"},
-          {"key": "X-XSS-Protection", "value": "1; mode=block"}
-       ]
+      "headers": [{
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self' https://* 'unsafe-inline'"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-UA-Compatible",
+          "value": "ie=edge"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
     }, {
       "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
-      "headers": [ {
+      "headers": [{
         "key": "Access-Control-Allow-Origin",
         "value": "*"
-    } ]
+      }]
     }, {
-      "source" : "**/*.@(js|css)",
-      "headers" : [ {
-        "key" : "Cache-Control",
-        "value" : "max-age=604800"
-      } ]
+      "source": "**/*.@(js|css)",
+      "headers": [{
+        "key": "Cache-Control",
+        "value": "max-age=604800"
+      }]
     }, {
       "source": "**/*.@(jpg|jpeg|gif|png|svg)",
-      "headers": [ {
-      "key": "Cache-Control",
-      "value": "max-age=604800"
-      } ]
+      "headers": [{
+        "key": "Cache-Control",
+        "value": "max-age=604800"
+      }]
     }, {
       "source": "404.html",
-      "headers": [ {
-      "key": "Cache-Control",
-      "value": "max-age=300"
-      } ]
-    } ]
+      "headers": [{
+        "key": "Cache-Control",
+        "value": "max-age=300"
+      }]
+    }]
   }
 }
