@@ -12,10 +12,6 @@
           "value": "default-src 'self' https://* 'unsafe-inline'"
         },
         {
-          "key": "Content-Encoding",
-          "value": "gzip"
-        },
-        {
           "key": "X-Content-Type-Options",
           "value": "nosniff"
         },
