@@ -128,7 +128,6 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    vendor: ['ie-buster'],
     postcss: {
       preset: {
         features: {
