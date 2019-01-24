@@ -7,14 +7,89 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: 'Top',
+    titleTemplate: '%s - inductor.me',
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      {
+        charset: 'utf-8'
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1'
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: pkg.description
+      },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'inductor.me'
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content: '完全に理解している人のサイト'
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content: '/img/inductor_logo.png'
+      },
+      {
+        hid: 'og:image:width',
+        name: 'og:image:width',
+        content: '1200'
+      },
+      {
+        hid: 'og:image:height',
+        name: 'og:image:height',
+        content: '630'
+      },
+      {
+        hid: 'og:url',
+        name: 'og:url',
+        content: '/'
+      },
+      {
+        hid: 'og:type',
+        name: 'og:type',
+        content: 'website'
+      },
+      {
+        hid: 'og:site_name',
+        name: 'og:site_name',
+        content: 'inductor.me'
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image'
+      },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: '@_inductor_'
+      },
+      {
+        hid: 'twitter:creator',
+        name: 'twitter:creator',
+        content: '@_inductor_'
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: '/img/inductor_logo.png'
+      }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico',
+        sizes: '16x16'
+      }
     ]
   },
 
@@ -26,14 +101,12 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: [
-  ],
+  css: [],
 
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-  ],
+  plugins: [],
 
   /*
   ** Nuxt.js modules
