@@ -13,10 +13,18 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
+    "@fortawesome/fontawesome-svg-core": "^1.2.4",
+    "@fortawesome/free-brands-svg-icons": "^5.3.1",
+    "@fortawesome/free-solid-svg-icons": "^5.3.1",
+    "@fortawesome/vue-fontawesome": "^0.1.1",
     "cross-env": "^5.2.0",
     "nuxt": "^2.0.0",
+    "ie-buster": "^1.1.0",
     "@nuxtjs/bulma": "^1.2.0",
-    "@nuxtjs/axios": "^5.0.0"
+    "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/browserconfig": "^0.0.8",
+    "@nuxtjs/google-tag-manager": "^2.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0",

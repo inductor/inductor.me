@@ -65,7 +65,7 @@ module.exports = {
       {
         hid: 'twitter:card',
         name: 'twitter:card',
-        content: 'summary_large_image'
+        content: 'summary'
       },
       {
         hid: 'twitter:site',
@@ -128,6 +128,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    vendor: ['ie-buster'],
     postcss: {
       preset: {
         features: {
