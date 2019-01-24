@@ -1,6 +1,6 @@
 defaults: &defaults
   docker:
-    - image: node:10.15.0-alpine
+    - image: circleci/node:10.15.0
   working_directory: ~/project
 
 version: 2
