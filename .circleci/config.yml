@@ -3,7 +3,7 @@ defaults: &defaults
     - image: node:10.15.0-alpine
   working_directory: ~/project
 
-version: 2.1
+version: 2
 jobs:
   build:
     <<: *defaults
