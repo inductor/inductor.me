@@ -12,6 +12,12 @@ jobs:
       - restore_cache:
           key: inductor-{{ .Branch }}-{{ checksum "package.json" }}
       - run:
+          name: "check dir"
+          command: "pwd"
+      - run:
+          name: "check dir"
+          command: "ls"
+      - run:
           name: "Build environment"
           command: npm run install
       - run:
