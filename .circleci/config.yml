@@ -12,14 +12,8 @@ jobs:
       - restore_cache:
           key: inductor-{{ .Branch }}-{{ checksum "package.json" }}
       - run:
-          name: "check dir"
-          command: "pwd"
-      - run:
-          name: "check dir"
-          command: "ls"
-      - run:
           name: "Build environment"
-          command: npm run install
+          command: npm install
       - run:
           name: "Run lint"
           command: npm run lint
@@ -29,7 +23,7 @@ jobs:
       - save_cache:
           key: inductor-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
-          - "~/project/inductor.me/node_modules"
+          - "~/project/node_modules"
   deploy:
     <<: *defaults
     steps:
