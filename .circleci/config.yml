@@ -1,0 +1,20 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: inductor/hugo-firebase-tools:latest
+    working_directory: ~/project
+    steps:
+      - checkout
+      - run:
+          name: "Pull Hugo Theme"
+          command: git submodule init && git submodule update
+      - run:
+          name: "Run Hugo"
+          command: HUGO_ENV=production hugo -v -s ~/project/
+#      - run:
+#          name: "Test Website"
+#          command: htmlproofer ~/project/public --allow-hash-href --check-html --empty-alt-ignore
+      - run:
+          name: "Deploy"
+          command: cd public && firebase deploy --only hosting --token "$FIREBASE_TOKEN"
