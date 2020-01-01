@@ -54,7 +54,7 @@
     --color-dark-bg: #212121;
     --color-light: #fff;
     --color-light-bg: #f2f2f2;
-    --profile-src: url("https://avatars3.githubusercontent.com/u/20236173?s=460&v=4");
+    --profile-src: url("../images/avatar.jpeg");
 }
 [data-theme='pixel'] {
     --font-family: "Pixel";
@@ -84,7 +84,7 @@
     --color-dark-bg: #262b44;
     --color-light: #ffffff;
     --color-light-bg: #2ce8f5;
-    --profile-src: url("https://avatars3.githubusercontent.com/u/20236173?s=460&v=4");
+    --profile-src: url("../images/pixel.jpeg");
 }
 .shadow {
     box-shadow: .2rem .2rem .5rem rgba(87,85,217,.2);
