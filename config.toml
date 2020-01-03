@@ -12,7 +12,7 @@ googleAnalytics = "UA-45054000-13"
   altName = "inductor"
   description = "Just a portfolio page"
   bio = "Cloud Infra Engineer"
-  enableRSS = true
+  enableRSS = false
 
   # Author information in posts
   aboutAuthor = "I'm a cloud infrastructure engineer."
@@ -28,7 +28,7 @@ googleAnalytics = "UA-45054000-13"
   # translate or customize each string of the theme.
 
   # Navigation links
-	home = "https://inductor.me/"
+	home = "Home"
 	subscribe = ""
 
 	# Pagination links
