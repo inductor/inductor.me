@@ -2,6 +2,7 @@
 title: "Cloud Infrastructure Engineer"
 date: "2018-04-01"
 description: "Works at ZOZO Technologies"
+tags: ["git", "linux", "docker", "amazonwebservices", "javascript"]
 ---
 
 ## Job

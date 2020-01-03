@@ -2,6 +2,7 @@
 title: "Web Developer"
 date: "2016-06-01"
 description: "Works at hitomedia"
+tags: ["git", "linux", "docker", "nginx", "php", "android"]
 ---
 
 ## Job

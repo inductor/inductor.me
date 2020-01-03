@@ -2,6 +2,7 @@
 title: "Network Engineer"
 date: "2015-02-01"
 description: "Works at a Datacenter"
+tags: ["linux"]
 ---
 
 ## Job
