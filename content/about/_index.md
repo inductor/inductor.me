@@ -5,7 +5,9 @@ menu: "main"
 
 ### About Me
 
-> A cloud infrastructure engineer at MLOps team, ZOZO Technologies w/ GCP and AWS mainly. Especially familiar with container technologies such as Docker, Kubernetes and its managed services on the public clouds as above.
+> Cloud Native and DevOps Solutions Architect at HPE(Hewlett Packard Enterprise).
+
+> Previosly worked as a cloud infrastructure engineer at MLOps team, ZOZO Technologies w/ GCP and AWS mainly. Especially familiar with container technologies such as Docker, Kubernetes and its managed services on the public clouds as above.
 
 ### Development Skills
 
