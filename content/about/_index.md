@@ -7,7 +7,7 @@ menu: "main"
 
 > Cloud Native and DevOps Solutions Architect at HPE(Hewlett Packard Enterprise).
 
-> Cloud Native Ambassador since May 2020.
+> CNCF Ambassador since May 2020.
 
 > Previosly worked as a cloud infrastructure engineer at MLOps team, ZOZO Technologies w/ GCP and AWS mainly. Especially familiar with container technologies such as Docker, Kubernetes and its managed services on the public clouds as above.
 
@@ -40,7 +40,7 @@ menu: "main"
 - Kubernetes SIG-Docs JA Owner
 - Maintainer of http3-explained
 - Docker Meetup Tokyo Organizer
-- Cloud Native Ambassador
+- CNCF Ambassador
 
 ### Education
 
