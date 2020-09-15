@@ -34,6 +34,12 @@ menu: "main"
 - [Docker今昔 / Docker Kubernetes through the Ages](https://speakerdeck.com/inductor/docker-kubernetes-through-the-ages) at Cloud Native Meetup Tokyo #9
 - [ZOZOTOWN の画像検索機能にみるKubernetes を使った機械学習基盤運用の裏側](https://speakerdeck.com/inductor/zozo-image-search-under-the-hood-with-kubernetes) at CloudNative Days Kansai 2019
 - [機械学習基盤の本番運用とその取り組み](https://speakerdeck.com/inductor/ml-platform-in-production) at July Tech Festa 2019
+- [OSSから理解するEKSとそのエコシステムについて](https://speakerdeck.com/inductor/understanding-eks-and-its-ecosystem-from-oss-perspective) at JAWS-UG コンテナ支部 #16
+- [コンテナ目線で考えるUnikernelとmicroVM](https://speakerdeck.com/inductor/microvm-and-unikernel-in-the-container-world) at Kernel/VM/探検隊online part1
+- [Kubernetes、第一歩のその後に ~基盤を支えるOSSとの関わり方~](https://speakerdeck.com/inductor/kubernetes-201-lets-get-involved-with-the-community) at July Tech Festa 2020
+- [コンテナランタイムはじめの一歩](https://speakerdeck.com/inductor/container-runtime-101) at Container Runtime Meetup #2
+- [Kubernetes Networking 101](https://speakerdeck.com/inductor/kubernetes-networking-101) at Kubernetes Novice Tokyo #4
+- [macOS-like Developer Experience with WSL2, Windows Terminal, VSCode and Docker Desktop](macos-like-developer-experience-with-wsl2-windows-terminal-vscode-and-docker-desktop) at microWSLConf 2020
 
 ### OSS Activities / Contributions
 
