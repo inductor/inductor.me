@@ -41,6 +41,7 @@ menu: "main"
 - [Kubernetes Networking 101](https://speakerdeck.com/inductor/kubernetes-networking-101) at Kubernetes Novice Tokyo #4
 - [macOS-like Developer Experience with WSL2, Windows Terminal, VSCode and Docker Desktop](macos-like-developer-experience-with-wsl2-windows-terminal-vscode-and-docker-desktop) at microWSLConf 2020
 - [CRI-O Shallow Dive](https://speakerdeck.com/inductor/cri-o-shallow-dive) at 猛暑/残暑に負けるな！OpenShift.Run Summer #10
+- [Google Cloudを支えるBorgを語る](https://www.youtube.com/watch?v=nEKJ8iFD9Hg)
 - [Cloud Controller Manager 超入門](https://speakerdeck.com/inductor/cloud-controller-manager-101) at Kubernetes Internal #2
 - [Amazon Load Balancer Controller クイックオーバービュー](https://speakerdeck.com/inductor/amazon-load-balancer-controller-quick-overview) at JAWS-UGコンテナ支部 #18
 - [Digital Oceanで始めるお手軽Cloud Provider生活](https://speakerdeck.com/inductor/cloud-provider-101-with-digital-ocean) at Kubernetes Meetup #36
