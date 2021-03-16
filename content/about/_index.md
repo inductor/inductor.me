@@ -40,6 +40,12 @@ menu: "main"
 - [コンテナランタイムはじめの一歩](https://speakerdeck.com/inductor/container-runtime-101) at Container Runtime Meetup #2
 - [Kubernetes Networking 101](https://speakerdeck.com/inductor/kubernetes-networking-101) at Kubernetes Novice Tokyo #4
 - [macOS-like Developer Experience with WSL2, Windows Terminal, VSCode and Docker Desktop](macos-like-developer-experience-with-wsl2-windows-terminal-vscode-and-docker-desktop) at microWSLConf 2020
+- [CRI-O Shallow Dive](https://speakerdeck.com/inductor/cri-o-shallow-dive) at 猛暑/残暑に負けるな！OpenShift.Run Summer #10
+- [Cloud Controller Manager 超入門](https://speakerdeck.com/inductor/cloud-controller-manager-101) at Kubernetes Internal #2
+- [Amazon Load Balancer Controller クイックオーバービュー](https://speakerdeck.com/inductor/amazon-load-balancer-controller-quick-overview) at JAWS-UGコンテナ支部 #18
+- [Digital Oceanで始めるお手軽Cloud Provider生活](https://speakerdeck.com/inductor/cloud-provider-101-with-digital-ocean) at Kubernetes Meetup #36
+- [kube-vipで作るお手軽 高可用クラスター ~外出しHAProxyからの卒業~](https://speakerdeck.com/inductor/say-good-bye-to-haproxy-and-keepalived-with-kube-vip-on-your-k8s) at Kubernetes Meetup #39
+- [Resource Requests and Limits Under the Hood: The Journey of a Pod Spec](https://sched.co/iE2K) at KubeCon + CloudNativeCon Europe 2021 Virtual
 
 ### OSS Activities / Contributions
 
