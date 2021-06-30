@@ -20,7 +20,7 @@ googleAnalytics = "UA-45054000-13"
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   customCSS = [
-    "https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+    "https://cdn.rawgit.com/konpa/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/devicon.min.css"
   ]
   customJS  = []
 

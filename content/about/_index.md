@@ -14,11 +14,18 @@ menu: "main"
 ### Development Skills
 
 {{< tag amazonwebservices >}}
+{{< tag googlecloud  >}}
+{{< tag digitalocean  >}}
 {{< tag docker >}}
+{{< tag kubernetes >}}
 {{< tag git >}}
+{{< tag github >}}
+{{< tag slack >}}
 {{< tag javascript >}}
 {{< tag linux >}}
 {{< tag nginx >}}
+{{< tag vscode >}}
+{{< tag circleci >}}
 
 ### [Language Proficiency](https://corporatefinanceinstitute.com/resources/careers/resume/language-proficiency-levels/)
 
