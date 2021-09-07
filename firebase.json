@@ -9,10 +9,10 @@
       {
         "source": "**",
         "headers": [
-          {
-            "key": "Content-Security-Policy",
-            "value": "default-src 'none'; script-src 'self' https: 'unsafe-inline'; style-src 'self' https: 'unsafe-inline'; img-src 'self' https: data:; font-src 'self' https: data:"
-          },
+          // {
+          //   "key": "Content-Security-Policy",
+          //   "value": "default-src 'none'; script-src 'self' https: 'unsafe-inline'; style-src 'self' https: 'unsafe-inline'; img-src 'self' https: data:; font-src 'self' https: data:"
+          // },
           {
             "key": "X-Content-Type-Options",
             "value": "nosniff"
