@@ -17,6 +17,8 @@ As an architect specializing in the cloud native domain at Hewlett Packard Enter
 #### Solutions architect
 > Apr 2020 – Dec 2020
 
+#### Reference links
+
 - https://www.hpe.com/jp/ja/customer-case-studies/services-synergy-jcb.html (Japanese)
 
 ### ZOZO Technologies, Inc.
