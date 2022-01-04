@@ -48,7 +48,7 @@ menu: "main"
 - [Kubernetes、第一歩のその後に ~基盤を支えるOSSとの関わり方~](https://speakerdeck.com/inductor/kubernetes-201-lets-get-involved-with-the-community) at July Tech Festa 2020
 - [コンテナランタイムはじめの一歩](https://speakerdeck.com/inductor/container-runtime-101) at Container Runtime Meetup #2
 - [Kubernetes Networking 101](https://speakerdeck.com/inductor/kubernetes-networking-101) at Kubernetes Novice Tokyo #4
-- [macOS-like Developer Experience with WSL2, Windows Terminal, VSCode and Docker Desktop](macos-like-developer-experience-with-wsl2-windows-terminal-vscode-and-docker-desktop) at microWSLConf 2020
+- [macOS-like Developer Experience with WSL2, Windows Terminal, VSCode and Docker Desktop](macos-like-developer-experience-writh-wsl2-windows-terminal-vscode-and-docker-desktop) at microWSLConf 2020
 - [CRI-O Shallow Dive](https://speakerdeck.com/inductor/cri-o-shallow-dive) at 猛暑/残暑に負けるな！OpenShift.Run Summer #10
 - [Google Cloudを支えるBorgを語る](https://www.youtube.com/watch?v=nEKJ8iFD9Hg) at GDG DevFest 2020
 - [Cloud Controller Manager 超入門](https://speakerdeck.com/inductor/cloud-controller-manager-101) at Kubernetes Internal #2
@@ -58,13 +58,14 @@ menu: "main"
 - [Resource Requests and Limits Under the Hood: The Journey of a Pod Spec](https://sched.co/iE2K) at KubeCon + CloudNativeCon Europe 2021 Virtual
 - [Kubernetesネットワーキング初級者脱出ガイド -基本から最新動向まで-](https://event.cloudnativedays.jp/cndt2021/talks/1181) at CloudNative Days Tokyo 2021
 
-### OSS Activities / Contributions
+### OSS Activities and community contributions
 
 - Kubernetes SIG-Docs JA Owner
 - Maintainer of http3-explained
 - Docker Meetup Tokyo Organizer
 - CNCF Ambassador
 - Google Developer Expert (Google Cloud Platform/Modern Architecture)
+- CKA/CKAD/CKS/KCNA translator (Kubernetes certifications by CNCF)
 
 ### Education
 
