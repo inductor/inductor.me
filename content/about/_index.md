@@ -5,7 +5,7 @@ menu: "main"
 
 ### About Me
 
-> Senior Field Engineer at Apple since July 2021.
+> Senior Field Engineer at Apple since July 2022.
 
 > CNCF Ambassador since May 2020.
 
