@@ -5,13 +5,15 @@ menu: "main"
 
 ### About Me
 
-> Cloud Native and DevOps Solutions Architect at HPE(Hewlett Packard Enterprise).
+> Senior Field Engineer at Apple since July 2021.
 
 > CNCF Ambassador since May 2020.
 
 > Google Developer Expert (Google Cloud Platform/Modern Architecture) since October 2021.
 
-> Previosly worked as a cloud infrastructure engineer at MLOps team, ZOZO Technologies w/ GCP and AWS mainly. Especially familiar with container technologies such as Docker, Kubernetes and its managed services on the public clouds as above.
+> Previously worked as a Solutions Architect at HPE(Hewlett Packard Enterprise).
+
+> Previously worked as a cloud infrastructure engineer at MLOps team, ZOZO Technologies w/ GCP and AWS mainly. Especially familiar with container technologies such as Docker, Kubernetes and its managed services on the public clouds as above.
 
 ### Development Skills
 
