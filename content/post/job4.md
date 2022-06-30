@@ -8,5 +8,3 @@ tags: ["git", "linux", "docker", "amazonwebservices", "javascript"]
 ## Job
 
 ### Cloud Native and DevOps Solutions Architect
-
-- TBA
