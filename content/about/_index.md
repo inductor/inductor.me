@@ -33,7 +33,7 @@ menu: "main"
 
 ### [Language Proficiency](https://corporatefinanceinstitute.com/resources/careers/resume/language-proficiency-levels/)
 
-- Japanese - Professional
+- Japanese - Native
 - English - Fluent
 
 ### Talks
