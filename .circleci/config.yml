@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: inductor/hugo-firebase-tools:latest
+      - image: ghcr.io/inductor/hugo-firebase-tools:sha-29887bf
     working_directory: ~/project
     steps:
       - checkout
